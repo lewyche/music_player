@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/04. There's More To Life Than That (Recorded live at the Milk Bar Toilets).mp3-834abda40a539f9cf497fada8ddda186.mp3str"
+
+[deps]
+
+source_file="res://Music/04. There's More To Life Than That (Recorded live at the Milk Bar Toilets).mp3"
+dest_files=[ "res://.import/04. There's More To Life Than That (Recorded live at the Milk Bar Toilets).mp3-834abda40a539f9cf497fada8ddda186.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

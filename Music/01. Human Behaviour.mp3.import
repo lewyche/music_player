@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/01. Human Behaviour.mp3-eece8c74a4dc88e02b52abd331a75a42.mp3str"
+
+[deps]
+
+source_file="res://Music/01. Human Behaviour.mp3"
+dest_files=[ "res://.import/01. Human Behaviour.mp3-eece8c74a4dc88e02b52abd331a75a42.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 04 Dayum.mp3-5b94ec7ab6ecc0168125b6e4f0d44cd0.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 04 Dayum.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 04 Dayum.mp3-5b94ec7ab6ecc0168125b6e4f0d44cd0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

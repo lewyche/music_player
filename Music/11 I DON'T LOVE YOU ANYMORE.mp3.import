@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/11 I DON'T LOVE YOU ANYMORE.mp3-5b3179a47de7960d7ec675bbf82bb149.mp3str"
+
+[deps]
+
+source_file="res://Music/11 I DON'T LOVE YOU ANYMORE.mp3"
+dest_files=[ "res://.import/11 I DON'T LOVE YOU ANYMORE.mp3-5b3179a47de7960d7ec675bbf82bb149.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

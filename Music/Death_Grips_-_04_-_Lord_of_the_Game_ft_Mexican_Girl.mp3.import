@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Death_Grips_-_04_-_Lord_of_the_Game_ft_Mexican_Girl.mp3-c8f1d3e455c669de07da1689c8145476.mp3str"
+
+[deps]
+
+source_file="res://Music/Death_Grips_-_04_-_Lord_of_the_Game_ft_Mexican_Girl.mp3"
+dest_files=[ "res://.import/Death_Grips_-_04_-_Lord_of_the_Game_ft_Mexican_Girl.mp3-c8f1d3e455c669de07da1689c8145476.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

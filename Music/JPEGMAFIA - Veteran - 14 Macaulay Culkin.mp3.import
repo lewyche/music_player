@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 14 Macaulay Culkin.mp3-55fcbfc83b49b55e80315015e06b5387.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 14 Macaulay Culkin.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 14 Macaulay Culkin.mp3-55fcbfc83b49b55e80315015e06b5387.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/09. Come To Me.mp3-76a6074003d9ff806b5f0ea9404e618d.mp3str"
+
+[deps]
+
+source_file="res://Music/09. Come To Me.mp3"
+dest_files=[ "res://.import/09. Come To Me.mp3-76a6074003d9ff806b5f0ea9404e618d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

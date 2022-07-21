@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 03 Thug Tears.mp3-ebdda564f945927278da35487e33ef91.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 03 Thug Tears.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 03 Thug Tears.mp3-ebdda564f945927278da35487e33ef91.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

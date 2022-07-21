@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 05 Baby I'm Bleeding.mp3-e9f1cf3e6fc9479b1f987fcfe7903972.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 05 Baby I'm Bleeding.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 05 Baby I'm Bleeding.mp3-e9f1cf3e6fc9479b1f987fcfe7903972.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

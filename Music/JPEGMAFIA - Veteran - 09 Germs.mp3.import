@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 09 Germs.mp3-8cbe6e35ae9406ac399bb80f94eca845.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 09 Germs.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 09 Germs.mp3-8cbe6e35ae9406ac399bb80f94eca845.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

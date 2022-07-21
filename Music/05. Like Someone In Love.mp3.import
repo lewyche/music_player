@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/05. Like Someone In Love.mp3-03e9acdb67890dbda17ead9e7e86dbbc.mp3str"
+
+[deps]
+
+source_file="res://Music/05. Like Someone In Love.mp3"
+dest_files=[ "res://.import/05. Like Someone In Love.mp3-03e9acdb67890dbda17ead9e7e86dbbc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/04 EXACTLY WHAT YOU RUN FROM YOU END UP CHASING.mp3-2ad636934cc8361e13d75dc7332658bf.mp3str"
+
+[deps]
+
+source_file="res://Music/04 EXACTLY WHAT YOU RUN FROM YOU END UP CHASING.mp3"
+dest_files=[ "res://.import/04 EXACTLY WHAT YOU RUN FROM YOU END UP CHASING.mp3-2ad636934cc8361e13d75dc7332658bf.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

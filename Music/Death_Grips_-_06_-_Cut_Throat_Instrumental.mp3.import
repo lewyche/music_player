@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Death_Grips_-_06_-_Cut_Throat_Instrumental.mp3-3f61e7043a7726948d88029f888018bb.mp3str"
+
+[deps]
+
+source_file="res://Music/Death_Grips_-_06_-_Cut_Throat_Instrumental.mp3"
+dest_files=[ "res://.import/Death_Grips_-_06_-_Cut_Throat_Instrumental.mp3-3f61e7043a7726948d88029f888018bb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

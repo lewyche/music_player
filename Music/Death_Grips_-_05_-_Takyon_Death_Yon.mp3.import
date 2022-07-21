@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Death_Grips_-_05_-_Takyon_Death_Yon.mp3-bc9ed6691af2bb1380f9182e38a69e38.mp3str"
+
+[deps]
+
+source_file="res://Music/Death_Grips_-_05_-_Takyon_Death_Yon.mp3"
+dest_files=[ "res://.import/Death_Grips_-_05_-_Takyon_Death_Yon.mp3-bc9ed6691af2bb1380f9182e38a69e38.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

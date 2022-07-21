@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/06 NEW MAGIC WAND.mp3-652e336166e613a3ce3005b0d6d62a0f.mp3str"
+
+[deps]
+
+source_file="res://Music/06 NEW MAGIC WAND.mp3"
+dest_files=[ "res://.import/06 NEW MAGIC WAND.mp3-652e336166e613a3ce3005b0d6d62a0f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

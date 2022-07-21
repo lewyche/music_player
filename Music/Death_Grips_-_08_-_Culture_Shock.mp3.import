@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Death_Grips_-_08_-_Culture_Shock.mp3-8fb48e39802dc121e89f86fd247a9491.mp3str"
+
+[deps]
+
+source_file="res://Music/Death_Grips_-_08_-_Culture_Shock.mp3"
+dest_files=[ "res://.import/Death_Grips_-_08_-_Culture_Shock.mp3-8fb48e39802dc121e89f86fd247a9491.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

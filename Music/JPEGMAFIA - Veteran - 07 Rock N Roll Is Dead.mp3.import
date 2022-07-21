@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 07 Rock N Roll Is Dead.mp3-5434682e0b8fccf4fdcf44b6b90ca862.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 07 Rock N Roll Is Dead.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 07 Rock N Roll Is Dead.mp3-5434682e0b8fccf4fdcf44b6b90ca862.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

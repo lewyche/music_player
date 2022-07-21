@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 18 1488.mp3-3e9aab86ef81dad45ec7b947f3a3192b.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 18 1488.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 18 1488.mp3-3e9aab86ef81dad45ec7b947f3a3192b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

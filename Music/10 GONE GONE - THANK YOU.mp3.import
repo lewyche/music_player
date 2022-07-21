@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/10 GONE GONE - THANK YOU.mp3-a7d654fc8e7a64ca2d18b109a9be8833.mp3str"
+
+[deps]
+
+source_file="res://Music/10 GONE GONE - THANK YOU.mp3"
+dest_files=[ "res://.import/10 GONE GONE - THANK YOU.mp3-a7d654fc8e7a64ca2d18b109a9be8833.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

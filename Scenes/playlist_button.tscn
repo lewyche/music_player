@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/playlist_button.gd" type="Script" id=1]
+[ext_resource path="res://Styles/my_font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Styles/button.tres" type="StyleBox" id=3]
+[ext_resource path="res://Styles/hover_button.tres" type="StyleBox" id=4]
+
+[node name="playlist_button" type="Button"]
+anchor_right = 1.0
+margin_right = 386.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+custom_styles/hover = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "NEW PLAYLIST"
+clip_text = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextEdit" type="TextEdit" parent="."]
+margin_left = 1.0
+margin_right = 1405.0
+margin_bottom = 22.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="." to="." method="_on_playlist_button_pressed"]
+[connection signal="text_changed" from="TextEdit" to="." method="_on_TextEdit_text_changed"]

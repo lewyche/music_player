@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/07 A BOY IS A GUN.mp3-d1bc48cd4666d127496db23bf41a2063.mp3str"
+
+[deps]
+
+source_file="res://Music/07 A BOY IS A GUN.mp3"
+dest_files=[ "res://.import/07 A BOY IS A GUN.mp3-d1bc48cd4666d127496db23bf41a2063.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

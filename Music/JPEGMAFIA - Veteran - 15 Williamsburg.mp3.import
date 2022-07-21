@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 15 Williamsburg.mp3-c28035f3c98c39d16de96c59e90d9d40.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 15 Williamsburg.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 15 Williamsburg.mp3-c28035f3c98c39d16de96c59e90d9d40.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 16 I Cannot Fucking Wait Until Morrissey Dies.mp3-3daf6253ccdf333ea897e2c7999e1b6c.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 16 I Cannot Fucking Wait Until Morrissey Dies.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 16 I Cannot Fucking Wait Until Morrissey Dies.mp3-3daf6253ccdf333ea897e2c7999e1b6c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

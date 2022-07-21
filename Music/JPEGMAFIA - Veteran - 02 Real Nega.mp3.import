@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 02 Real Nega.mp3-4fe1b0b5109049ecdbd44cb2a8385141.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 02 Real Nega.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 02 Real Nega.mp3-4fe1b0b5109049ecdbd44cb2a8385141.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

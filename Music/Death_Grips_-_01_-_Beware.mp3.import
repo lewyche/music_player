@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Death_Grips_-_01_-_Beware.mp3-b0d2ffca93875fd9e8b513a95d80a9cb.mp3str"
+
+[deps]
+
+source_file="res://Music/Death_Grips_-_01_-_Beware.mp3"
+dest_files=[ "res://.import/Death_Grips_-_01_-_Beware.mp3-b0d2ffca93875fd9e8b513a95d80a9cb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,138 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Playlist.gd" type="Script" id=1]
+[ext_resource path="res://Assets/plus.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/ScrollContainer.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/Playlist_container.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/Playlist_songs.gd" type="Script" id=5]
+[ext_resource path="res://Styles/Main Interface.tres" type="Theme" id=6]
+[ext_resource path="res://Assets/save.png" type="Texture" id=7]
+
+[node name="Playlist" type="Container"]
+anchor_left = -0.00146317
+anchor_top = 0.00249715
+anchor_right = -0.00146317
+anchor_bottom = 0.00249715
+margin_left = 256.498
+margin_top = 0.501709
+margin_right = 1024.5
+margin_bottom = 311.502
+theme = ExtResource( 6 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Playlists" type="Container" parent="."]
+anchor_right = 0.442
+anchor_bottom = 0.805
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 4 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Playlists"]
+margin_left = 0.89325
+margin_right = 379.893
+margin_bottom = 259.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Playlists/ScrollContainer"]
+margin_right = 379.0
+margin_bottom = 259.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="new_playlist" type="Button" parent="Playlists"]
+margin_left = 1.0
+margin_top = 288.0
+margin_right = 378.0
+margin_bottom = 308.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Playlists/new_playlist"]
+position = Vector2( 186.418, 8.9279 )
+scale = Vector2( 0.648873, 0.598401 )
+texture = ExtResource( 2 )
+
+[node name="save_playlist" type="Button" parent="Playlists"]
+anchor_left = 0.006
+anchor_top = 0.904
+anchor_right = 0.387
+anchor_bottom = 0.91
+margin_right = 40.0
+margin_bottom = 16.0
+
+[node name="Sprite" type="Sprite" parent="Playlists/save_playlist"]
+position = Vector2( 94.4666, 8.55077 )
+scale = Vector2( 0.59357, 0.582231 )
+texture = ExtResource( 7 )
+
+[node name="Playlist_songs" type="Container" parent="."]
+visible = false
+anchor_left = 0.495
+anchor_right = 0.952
+anchor_bottom = 0.839
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 5 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Playlist_songs"]
+margin_left = 1.0
+margin_right = 390.0
+margin_bottom = 274.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Playlist_songs/ScrollContainer"]
+
+[node name="ExitPlaylistSelection" type="Button" parent="Playlist_songs"]
+visible = false
+anchor_left = 0.512
+anchor_top = 1.0
+anchor_right = 0.893
+anchor_bottom = 1.0
+margin_right = 40.0
+margin_bottom = 16.0
+text = "Exit playlist selection mode"
+
+[node name="StartPlaylistSelection" type="Button" parent="Playlist_songs"]
+anchor_top = 1.0
+anchor_right = 0.411
+anchor_bottom = 1.0
+margin_right = 40.0
+margin_bottom = 16.0
+text = "Start playlist selection mode"
+
+[node name="Delete_song" type="Button" parent="Playlist_songs"]
+visible = false
+anchor_left = 0.004
+anchor_top = 0.923
+anchor_right = 0.406
+anchor_bottom = 0.923
+margin_right = 40.0
+margin_bottom = 16.0
+text = "Delete Song"
+
+[node name="Delete_playlist" type="Button" parent="Playlist_songs"]
+anchor_left = 0.518
+anchor_top = 0.917
+anchor_right = 0.887
+anchor_bottom = 0.923
+margin_right = 40.0
+margin_bottom = 16.0
+text = "Delete Playlist"
+
+[connection signal="pressed" from="Playlists/new_playlist" to="Playlists" method="_on_new_playlist_pressed"]
+[connection signal="pressed" from="Playlists/save_playlist" to="Playlists" method="_on_save_playlist_pressed"]
+[connection signal="pressed" from="Playlist_songs/ExitPlaylistSelection" to="Playlist_songs" method="_on_ExitPlaylistSelection_pressed"]
+[connection signal="pressed" from="Playlist_songs/StartPlaylistSelection" to="Playlist_songs" method="_on_StartPlaylistSelection_pressed"]
+[connection signal="pressed" from="Playlist_songs/Delete_song" to="Playlist_songs" method="_on_Delete_song_pressed"]
+[connection signal="pressed" from="Playlist_songs/Delete_playlist" to="Playlist_songs" method="_on_Delete_playlist_pressed"]

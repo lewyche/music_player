@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/06. Big Time Sensuality.mp3-4480a504204d67d800162c9fa759c4a6.mp3str"
+
+[deps]
+
+source_file="res://Music/06. Big Time Sensuality.mp3"
+dest_files=[ "res://.import/06. Big Time Sensuality.mp3-4480a504204d67d800162c9fa759c4a6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

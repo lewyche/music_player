@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/JPEGMAFIA - Veteran - 17 Rainbow Six.mp3-792cec438d6725dbfaaee24349d333c2.mp3str"
+
+[deps]
+
+source_file="res://Music/JPEGMAFIA - Veteran - 17 Rainbow Six.mp3"
+dest_files=[ "res://.import/JPEGMAFIA - Veteran - 17 Rainbow Six.mp3-792cec438d6725dbfaaee24349d333c2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

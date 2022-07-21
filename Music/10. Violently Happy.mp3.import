@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/10. Violently Happy.mp3-e02648b18c050d30e51c6d246481f857.mp3str"
+
+[deps]
+
+source_file="res://Music/10. Violently Happy.mp3"
+dest_files=[ "res://.import/10. Violently Happy.mp3-e02648b18c050d30e51c6d246481f857.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

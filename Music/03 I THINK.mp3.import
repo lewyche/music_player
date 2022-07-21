@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/03 I THINK.mp3-cb8d7f52f149584abe1e8992ee36651e.mp3str"
+
+[deps]
+
+source_file="res://Music/03 I THINK.mp3"
+dest_files=[ "res://.import/03 I THINK.mp3-cb8d7f52f149584abe1e8992ee36651e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
