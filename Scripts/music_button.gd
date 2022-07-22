@@ -3,6 +3,7 @@ extends Button
 onready var music_controls = get_node("../../../../Music Controls")
 onready var music_player = get_parent().get_parent().get_parent().get_parent().get_parent().get_node("music_player")
 onready var playlist_songs = get_node("../../../../Playlist/Playlist_songs")
+onready var next_song_nexus = music_controls.get_node("next_song_nexus")
 
 var playlist_selection_mode = false
 
@@ -24,4 +25,5 @@ func _on_music_button_pressed():
 		start_playing()
 	else:
 		playlist_songs.add_to_playlist(text)
+	next_song_nexus.play_from_files()
 

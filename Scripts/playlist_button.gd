@@ -21,11 +21,11 @@ func rename():
 func get_playlist():
 	return scroll_container.get_playlist(text)
 	
-
 func _on_playlist_button_pressed():
 	playlist_songs.visible = true
 	playlist_songs.set_current_playlist(get_playlist())
 	playlist_songs.display_playlist() 
+	get_node("../../../../../Music Controls/next_song_nexus").get_playlist(get_playlist())
 
 func _on_TextEdit_text_changed():
 	editing = true

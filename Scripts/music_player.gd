@@ -6,6 +6,8 @@ var playback_pos = 0.0
 var progress = 0
 var music_loaded = false
 
+var curr_playlist
+
 func pause_music():
 	if playing == true:
 		stop()
@@ -70,4 +72,3 @@ func _process(delta):
 	if playing == true:
 		playback_pos = get_playback_position()
 		progress = convert_to_percentage(playback_pos)
-		

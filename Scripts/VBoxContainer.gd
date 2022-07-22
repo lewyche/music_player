@@ -1,6 +1,8 @@
 extends VBoxContainer
 
 onready var button = preload("res://Scenes/music_button.tscn")
+onready var music_button = get_node("../../../../music_player")
+
 var buttons = []
 
 var playlist_selection_mode = false
@@ -58,3 +60,4 @@ func _ready():
 	var files = get_files("res://Music/")
 	if files[0] != "FAILED":
 		put_files_to_screen(files)
+		get_node("../../../Music Controls/next_song_nexus").get_files(files)

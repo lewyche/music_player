@@ -67,7 +67,10 @@ func _on_ProgressBar_mouse_entered():
 
 func _on_ProgressBar_mouse_exited():
 	mouse_in = false
-
-
+ 
 func _on_VolumeControl_value_changed(value):
 	music_player.change_volume(value)
+
+func _on_ProgressBar_value_changed(value):
+	if value >= 100:
+		$next_song_nexus.play_next_song()

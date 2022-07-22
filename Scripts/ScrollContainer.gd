@@ -4,6 +4,7 @@ extends ScrollContainer
 #playlist_music_button, playlist_button, Playlist, Main interface
 
 var playlist_button = preload("res://Scenes/playlist_button.tscn")
+onready var music_player = get_node("../../../../music_player")
 
 var playlists = []
 var playlists_buttons = []
@@ -51,7 +52,9 @@ func delete_playlist_button(name):
 func delete_playlist(name):
 	playlists.erase(name)
 	delete_playlist_button(name.name)
-	
+
+func play_next_song():
+	pass
 
 func _ready():
-	pass # Replace with function body.
+	pass

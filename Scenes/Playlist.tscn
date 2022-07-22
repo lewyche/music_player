@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/plus.png" type="Texture" id=2]
 [ext_resource path="res://Scripts/ScrollContainer.gd" type="Script" id=3]
 [ext_resource path="res://Scripts/Playlist_container.gd" type="Script" id=4]
-[ext_resource path="res://Scenes/Playlist_songs.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/Playlist_songs.gd" type="Script" id=5]
 [ext_resource path="res://Styles/Main Interface.tres" type="Theme" id=6]
 [ext_resource path="res://Assets/save.png" type="Texture" id=7]
 
@@ -87,6 +87,7 @@ script = ExtResource( 5 )
 margin_left = 1.0
 margin_right = 390.0
 margin_bottom = 274.0
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
