@@ -26,7 +26,6 @@ func change_play_button():
 		#show pause button
 		$play_button.icon = load("res://Assets/pause_button.png")
 
-
 func change_loop_button():
 	#TODO: change into a toogle button
 	if looping == true:

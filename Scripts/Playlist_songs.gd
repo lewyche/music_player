@@ -32,10 +32,11 @@ func end_playlist_selection():
 func add_to_playlist(name):
 	current_playlist.songs.append(name)
 	display_playlist()
-	
+	get_node("../../Music Controls/next_song_nexus").get_playlist(current_playlist)	
 func delete_from_playlist():
 	if current_song != "":
 		current_playlist.songs.erase(current_song)
+		get_node("../../Music Controls/next_song_nexus").get_playlist(current_playlist)	
 	else:
 		print("No current song!!!!")
 
