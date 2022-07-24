@@ -12,13 +12,12 @@ func play_next_song():
 	if current_song.text != "":
 		if playing_from_files == true:
 			var index = files.find(current_song.text)
-			if index <= files.size():
+			if index < files.size() - 1:
 				music_player.set_music_stream("res://Music/" + files[index + 1])
 				get_parent().get_node("current_song").text = files[index + 1]
 		else:
 			var index = playlist.songs.find(current_song.text)
-			if index <= files.size():
-
+			if index < playlist.songs.size() - 1:
 				music_player.set_music_stream("res://Music/" + playlist.songs[index + 1])
 				get_parent().get_node("current_song").text = playlist.songs[index + 1]
 	

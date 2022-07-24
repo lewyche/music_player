@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scripts/Playlist.gd" type="Script" id=1]
 [ext_resource path="res://Assets/plus.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Scripts/Playlist_songs.gd" type="Script" id=5]
 [ext_resource path="res://Styles/Main Interface.tres" type="Theme" id=6]
 [ext_resource path="res://Assets/save.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Playlist.png" type="Texture" id=8]
 
 [node name="Playlist" type="Container"]
 anchor_left = -0.00146317
@@ -22,6 +23,11 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 768.0
+margin_bottom = 311.0
+texture = ExtResource( 8 )
 
 [node name="Playlists" type="Container" parent="."]
 anchor_right = 0.442

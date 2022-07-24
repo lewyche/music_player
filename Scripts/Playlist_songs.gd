@@ -70,3 +70,4 @@ func _on_Delete_playlist_pressed():
 	reset_playlist()
 	Playlists.get_node("ScrollContainer").delete_playlist(current_playlist)
 	display_playlist()
+	Playlists.saved_playlists.erase(current_playlist)
